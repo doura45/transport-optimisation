@@ -78,7 +78,7 @@ with onglet1:
     
     # --- SECTION GAIN POTENTIEL (Ajoutée par mes soins) ---
     st.markdown("---")
-    st.subheader("💰 Gain Potentiel d'Optimisation")
+    st.subheader("Gain Potentiel d'Optimisation")
     
     # J'estime un gain conservateur de 12% basé sur l'analyse des modes
     taux_optimisation = 0.12
