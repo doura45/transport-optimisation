@@ -59,11 +59,11 @@ with st.sidebar:
     st.write("Ce simulateur permet d'identifier des opportunités de réduction de coûts de fret.")
 
 # --- TITRE PRINCIPAL ---
-st.title("🚛 Optimisation des Coûts de Transport")
+st.title("Optimisation des Coûts de Transport")
 st.markdown("---")
 
 # --- ONGLETS ---
-onglet1, onglet2, onglet3 = st.tabs(["📊 Vue Globale", "🔍 Analyse de la Dépense", "💡 Simulateur d'Optimisation"])
+onglet1, onglet2, onglet3 = st.tabs(["Vue Globale", "Analyse de la Dépense", "Simulateur d'Optimisation"])
 
 # --- ONGLET 1 : VUE GLOBALE ---
 with onglet1:
@@ -105,7 +105,7 @@ with onglet2:
                      title="Relation entre le poids du colis et le prix payé")
     st.plotly_chart(fig3, use_container_width=True)
     
-    st.info("💡 On remarque que le transport Aérien (Air) est souvent utilisé même pour des poids élevés, ce qui augmente les coûts.")
+    st.info("On remarque que le transport Aérien (Air) est souvent utilisé même pour des poids élevés, ce qui augmente les coûts.")
 
 # --- ONGLET 3 : SIMULATEUR D'OPTIMISATION ---
 with onglet3:
