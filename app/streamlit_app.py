@@ -154,10 +154,11 @@ with onglet3:
     
     # 2. Économie sur la réduction de poids globale
     budget_actuel = df['Freight Cost (USD)'].sum()
-    economie_poids = budget_actuel * (gain_poids / 100)
+    # Calcul de l'économie sur le poids (Hypothèse plus réaliste : Gain de 0.5% en coût pour 1% de poids gagné)
+    gain_poids_reel = (gain_poids / 100) * budget_actuel * 0.5
     
     # 3. Résultats finaux
-    economie_totale = economie_mode + economie_poids
+    economie_totale = economie_mode + gain_poids_reel
     nouveau_budget = budget_actuel - economie_totale
     
     st.markdown("---")
