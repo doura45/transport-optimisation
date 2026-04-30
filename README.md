@@ -7,6 +7,10 @@ Les dépenses de transport (fret) représentent un centre de coût massif pour l
 - **Coût total des expéditions analysées** : 68 817 849 $
 - **Principale anomalie identifiée** : Sur-utilisation coûteuse de l'aérien pour des colis lourds.
 
+## Impact Business
+- **Économie annuelle possible** : 8 258 142 $
+- **Levier principal** : Optimisation du mix transport (Modal Shift) et réduction des frais de fret de 12%.
+
 ## Demo live
 [Application interactive](https://transport-optimisation-cytdvplirftqzzcpt2upyu.streamlit.app/)
 
